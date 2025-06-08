@@ -104,4 +104,15 @@ Both are provided in `.csv` format and stored in the `/datasets` folder.
 **SQL Script Directory**:  
 🔗 [`/scripts/gold`](https://github.com/er-ganeshgautam/Enterprise-Retail-Data-Warehouse-with-Medallion-Architecture/tree/main/scripts/gold)
 
+## 📈 Analytics & Reporting
+
+Once the **Gold Layer** is built, it can be consumed directly by:
+
+- 📊 **BI Tools** like Power BI or Tableau for creating dashboards
+- 🧪 **Ad-hoc SQL Queries** for exploring trends, patterns, or KPIs
+- 🤖 **Machine Learning Models** which can be built on top of the cleaned and structured datasets
+
+The **Star Schema** ensures the warehouse is optimized for performance, ease of querying, and scalability.
+
+
 
