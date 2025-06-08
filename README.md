@@ -1,8 +1,7 @@
 
 
 # 🏬 Enterprise Retail Data Warehouse with Medallion Architecture (PostgreSQL)
-
-Welcome to the **Enterprise Retail Data Warehouse** project! 🚀  
+  
 This project demonstrates how to build a **modern data warehouse** using **PostgreSQL** and **Medallion Architecture (Bronze → Silver → Gold)**, supporting full data pipeline development from ingestion to insights.
 
 ---
