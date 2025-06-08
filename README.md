@@ -26,7 +26,7 @@ Each layer uses **PostgreSQL** DDL/DML scripts with batch processing (`TRUNCATE 
 
 ## 🔁 High-Level Data Flow
 
-!Data flow(https://github.com/er-ganeshgautam/Enterprise-Retail-Data-Warehouse-with-Medallion-Architecture/tree/main/docs/data_flow)
+![Data flow](https://github.com/er-ganeshgautam/Enterprise-Retail-Data-Warehouse-with-Medallion-Architecture/tree/main/docs/data_flow)
 
 - Data flows from CRM and ERP CSVs into PostgreSQL's **Bronze** layer.
 - **Stored procedures** (SQL scripts) load and cleanse data in **Silver**.
