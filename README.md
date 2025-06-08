@@ -1,18 +1,15 @@
-# SQL-data-warehouse-design
-Building a modern data warehouse with PostgreSQL, including ETL processes, data modeling and analytics
+
 
 # 🏬 Enterprise Retail Data Warehouse with Medallion Architecture (PostgreSQL)
 
 Welcome to the **Enterprise Retail Data Warehouse** project! 🚀  
-This is a portfolio-level data engineering project that demonstrates how to build a **modern data warehouse** using **PostgreSQL** and **Medallion Architecture (Bronze → Silver → Gold)**, supporting full data pipeline development from ingestion to insights.
+This project demonstrates how to build a **modern data warehouse** using **PostgreSQL** and **Medallion Architecture (Bronze → Silver → Gold)**, supporting full data pipeline development from ingestion to insights.
 
 ---
 
 ## 📐 Architecture Overview
 
-<p align="center">
-  <img src="docs/data_architecture.png" alt="Medallion Architecture" width="800"/>
-</p>
+![Architecture](https://github.com/er-ganeshgautam/Enterprise-Retail-Data-Warehouse-with-Medallion-Architecture/blob/main/docs/data_architecture.png)
 
 This solution follows the **Medallion Architecture** pattern:
 
