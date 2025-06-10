@@ -29,7 +29,7 @@ CREATE TABLE bronze.crm_prd_info (
     prd_nm       VARCHAR(50),
     prd_cost     INT,
     prd_line     VARCHAR(50),
-    prd_start_dt TIMESTAMP,  -- Use TIMESTAMP instead of DATETIME
+    prd_start_dt TIMESTAMP,  
     prd_end_dt   TIMESTAMP
 );
 
@@ -39,7 +39,7 @@ CREATE TABLE bronze.crm_sales_details (
     sls_ord_num  VARCHAR(50),
     sls_prd_key  VARCHAR(50),
     sls_cust_id  INT,
-    sls_order_dt INT,    -- Consider changing to DATE or TIMESTAMP if these represent dates
+    sls_order_dt INT,   
     sls_ship_dt  INT,
     sls_due_dt   INT,
     sls_sales    INT,
