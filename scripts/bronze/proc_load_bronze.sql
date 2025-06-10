@@ -24,7 +24,7 @@ BEGIN
     RAISE NOTICE '>> Inserting Data Into: bronze.crm_cust_info';
     EXECUTE format(
         'COPY bronze.crm_cust_info FROM %L CSV HEADER',
-        'C:/sql/dwh_project/datasets/source_crm/cust_info.csv'
+        'D:/Projects/SQL Data Warehouse/datasets/source_crm/cust_info.csv' 
     );
     end_time := clock_timestamp();
     RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
@@ -36,7 +36,7 @@ BEGIN
     RAISE NOTICE '>> Inserting Data Into: bronze.crm_prd_info';
     EXECUTE format(
         'COPY bronze.crm_prd_info FROM %L CSV HEADER',
-        'C:/sql/dwh_project/datasets/source_crm/prd_info.csv'
+        'D:/Projects/SQL Data Warehouse/datasets/source_crm/prd_info.csv' 
     );
     end_time := clock_timestamp();
     RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
@@ -48,7 +48,7 @@ BEGIN
     RAISE NOTICE '>> Inserting Data Into: bronze.crm_sales_details';
     EXECUTE format(
         'COPY bronze.crm_sales_details FROM %L CSV HEADER',
-        'C:/sql/dwh_project/datasets/source_crm/sales_details.csv'
+        'D:/Projects/SQL Data Warehouse/datasets/source_crm/sales_details.csv'
     );
     end_time := clock_timestamp();
     RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
@@ -64,7 +64,7 @@ BEGIN
     RAISE NOTICE '>> Inserting Data Into: bronze.erp_loc_a101';
     EXECUTE format(
         'COPY bronze.erp_loc_a101 FROM %L CSV HEADER',
-        'C:/sql/dwh_project/datasets/source_erp/loc_a101.csv'
+        'D:/Projects/SQL Data Warehouse/datasets/source_erp/loc_a101.csv'
     );
     end_time := clock_timestamp();
     RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
@@ -76,7 +76,7 @@ BEGIN
     RAISE NOTICE '>> Inserting Data Into: bronze.erp_cust_az12';
     EXECUTE format(
         'COPY bronze.erp_cust_az12 FROM %L CSV HEADER',
-        'C:/sql/dwh_project/datasets/source_erp/cust_az12.csv'
+        'D:/Projects/SQL Data Warehouse/datasets/source_erp/cust_az12.csv'
     );
     end_time := clock_timestamp();
     RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
@@ -88,7 +88,7 @@ BEGIN
     RAISE NOTICE '>> Inserting Data Into: bronze.erp_px_cat_g1v2';
     EXECUTE format(
         'COPY bronze.erp_px_cat_g1v2 FROM %L CSV HEADER',
-        'C:/sql/dwh_project/datasets/source_erp/px_cat_g1v2.csv'
+        'D:/Projects/SQL Data Warehouse/datasets/source_erp/px_cat_g1v2.csv'
     );
     end_time := clock_timestamp();
     RAISE NOTICE '>> Load Duration: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
